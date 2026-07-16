@@ -1,0 +1,43 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    padding: 20px;
+    border-bottom: 3px solid #5A0770;
+}
+title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.title img {
+    width: 80px;
+    border-radius: 50%;
+}
+nav {
+    background-color: #1A1A1A;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav a:hover {
+        color: #5A0770;
+}
