@@ -50,3 +50,7 @@ nav a:hover {
     display: block;
     margin: 20px auto;
 }
+.hero-container {
+    width: 100px;
+    margin: 0 auto;
+}
