@@ -41,10 +41,7 @@ nav a {
 nav a:hover {
         color: #5A0770;
 }
-.hero-container {
-    width: 800px;
-    margin: 0 auto;
-}
+
 
 .hero {
     width: 80%;
