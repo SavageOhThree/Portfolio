@@ -44,13 +44,11 @@ nav a:hover {
 
 
 .hero {
-    width: 80%;
-    max-width: 900px;
-    height: 600px;
     display: block;
+    width: 90%;
+    max-width: 1000px;
+    height: 250px;
     margin: 20px auto;
-}
-.hero-container {
-    width: 500px;
-    margin: 0 auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
