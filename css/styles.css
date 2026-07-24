@@ -32,15 +32,39 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
+
 }
 nav a {
     color: #FFFFFF;
     text-decoration: none;
+    display: block;
+    padding: 10%;
 }
 nav a:hover {
         color: #5A0770;
 }
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
 
+.card {
+    background-color: #5A0770;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+/* tablet and desktop media query */
+@media screen and (min-width: 550px), print{
+    nav ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+}
